@@ -6,7 +6,7 @@
 
 from tkinter import *
 window=Tk()
-window.title(text="Chess Game")
+window.title("Chess Game")
 
 elephant_white_right=Button(window, text='Elephant', height=10, width=10)
 elephant_white_right.grid(row=0, column=0)

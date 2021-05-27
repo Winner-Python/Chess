@@ -11,5 +11,12 @@ pygame.init()
 while 1 == 1:
     size = height, width = 560, 560
     screen = pygame.display.set_mode(size)
-pygame.quit()
+    pygame.display.set_caption("Chess")
+
+from tkinter import *
+window = Tk()
+window.title(text = "Chess Game")
+
+
+
 
